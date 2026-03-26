@@ -1,0 +1,16 @@
+{
+  "marketDate": "2026-03-26",
+  "now": "2026-03-26T16:00:00.000Z",
+  "timezone": "UTC",
+  "dayType": "light_event",
+  "eventMode": "politics",
+  "bucketConfigs": [
+    { "bucketId": "b1", "label": "0-5", "lowerBound": 0, "upperBound": 5 },
+    { "bucketId": "b2", "label": "6-10", "lowerBound": 6, "upperBound": 10 },
+    { "bucketId": "b3", "label": "11-20", "lowerBound": 11, "upperBound": 20 },
+    { "bucketId": "b4", "label": "21-35", "lowerBound": 21, "upperBound": 35 },
+    { "bucketId": "b5", "label": "36+", "lowerBound": 36, "upperBound": null }
+  ],
+  "tweets": [],
+  "quotes": []
+}

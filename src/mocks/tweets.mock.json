@@ -1,0 +1,122 @@
+[
+  {
+    "tweetId": "t1",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T00:40:00.000Z",
+    "collectedAt": "2026-03-26T00:40:10.000Z",
+    "type": "tweet",
+    "text": "Test post 1",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t2",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T02:10:00.000Z",
+    "collectedAt": "2026-03-26T02:10:08.000Z",
+    "type": "tweet",
+    "text": "Test post 2",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t3",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T04:20:00.000Z",
+    "collectedAt": "2026-03-26T04:20:09.000Z",
+    "type": "quote",
+    "text": "Quote post",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t4",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T08:45:00.000Z",
+    "collectedAt": "2026-03-26T08:45:07.000Z",
+    "type": "tweet",
+    "text": "Midday post",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t5",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T12:10:00.000Z",
+    "collectedAt": "2026-03-26T12:10:06.000Z",
+    "type": "tweet",
+    "text": "Another post",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t6",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T14:55:00.000Z",
+    "collectedAt": "2026-03-26T14:55:05.000Z",
+    "type": "tweet",
+    "text": "Burst starts",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t7",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T15:05:00.000Z",
+    "collectedAt": "2026-03-26T15:05:04.000Z",
+    "type": "tweet",
+    "text": "Burst continues",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t8",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T15:20:00.000Z",
+    "collectedAt": "2026-03-26T15:20:04.000Z",
+    "type": "reply",
+    "text": "Reply post",
+    "isDeleted": false,
+    "isCounted": false,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t9",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T15:30:00.000Z",
+    "collectedAt": "2026-03-26T15:30:06.000Z",
+    "type": "quote",
+    "text": "Quote burst",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  },
+  {
+    "tweetId": "t10",
+    "authorId": "44196397",
+    "authorUsername": "elonmusk",
+    "createdAt": "2026-03-26T15:50:00.000Z",
+    "collectedAt": "2026-03-26T15:50:05.000Z",
+    "type": "tweet",
+    "text": "Latest counted post",
+    "isDeleted": false,
+    "isCounted": true,
+    "source": "manual"
+  }
+]
