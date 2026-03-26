@@ -1,25 +1,18 @@
 import { NextResponse } from 'next/server';
-import tweets from '@/mocks/tweets.mock.json';
-import quotes from '@/mocks/quotes.mock.json';
-import marketInputBase from '@/mocks/market-input.mock.json';
 import { analyzeMarket } from '@/lib/analysis';
 import { defaultModelConfig } from '@/lib/config';
+import { buildMarketInput } from '@/lib/fetcher';
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const now = searchParams.get('now') ?? marketInputBase.now;
-  const dayType = (searchParams.get('dayType') as typeof marketInputBase.dayType | null) ?? marketInputBase.dayType;
-  const eventMode = (searchParams.get('eventMode') as typeof marketInputBase.eventMode | null) ?? marketInputBase.eventMode;
 
-  const input = {
-    ...marketInputBase,
-    now,
-    dayType,
-    eventMode,
-    tweets,
-    quotes,
-  };
+  const marketDate = searchParams.get('date') ?? new Date().toISOString().slice(0, 10);
+  const now = searchParams.get('now') ?? undefined;
+  const dayType = searchParams.get('dayType') ?? undefined;
+  const eventMode = searchParams.get('eventMode') ?? undefined;
 
+  const input = await buildMarketInput({ marketDate, now, dayType, eventMode });
   const result = analyzeMarket(input, defaultModelConfig);
+
   return NextResponse.json(result);
 }
