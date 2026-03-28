@@ -202,6 +202,14 @@ export async function fetchTodayCount(marketDate: string): Promise<number> {
  * Timestamps are spread evenly across the day.
  * The analysis engine only needs createdAt + isCounted, not real tweet content.
  */
+export function synthesizeTweetRecordsPublic(
+  count: number,
+  marketDate: string,
+  platformId: string,
+): TweetRecord[] {
+  return synthesizeTweetRecords(count, marketDate, platformId);
+}
+
 function synthesizeTweetRecords(
   count: number,
   marketDate: string,
